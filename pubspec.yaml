@@ -12,8 +12,10 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl:  ^0.15.5
-  flutter_native_timezone: ^1.0.0
-
+  #flutter_native_timezone: ^1.0.0
+  flutter_native_timezone:
+    git:
+      url: "https://github.com/robert-stevens/flutter_native_timezone.git"
 
   timezone:
      # Need to use git here since there is a bug in the main repository.
